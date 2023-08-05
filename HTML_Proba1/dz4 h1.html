@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(221, 208, 208);
+        }
+
+        .hasy {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 5em;
+            border: 2px solid #48d1cc;
+            border-radius: 50%;
+        }
+
+        .minutes {
+            position: absolute;
+            width: 2px;
+            height: 35px;
+            left: 51px;
+            top: 16px;
+            background: #24C0BA;
+            animation: now 30s infinite steps(1600);
+            transform-origin: 0 34px;
+        }
+
+        .sekundes {
+            position: absolute;
+            width: 2px;
+            height: 45px;
+            left: 51px;
+            top: 4px;
+            background: #48d1cc;
+            animation: nev 10s infinite steps(2000);
+            transform-origin: 0 45px;
+
+        }
+
+        .sentr {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            top: 45px;
+            left: 48px;
+            background: #009B95;
+        }
+
+
+        @keyframes nev {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes now {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hasy">
+        <div class="sekundes"></div>
+        <div class="minutes"></div>
+        <div class="sentr"></div>
+    </div>
+</body>
+
+</html>
