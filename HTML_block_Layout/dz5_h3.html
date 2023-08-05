@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .heder {
+            width: 250px;
+            height: 50px;
+            border: 2px solid;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-color: crimson;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .block {
+            width: 250px;
+            height: 350px;
+            border: 2px solid;
+            border-top-color: crimson;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .dolor {
+            font-size: 30px;
+        }
+
+        .month {
+            opacity: 0.3;
+        }
+
+        button {
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: crimson;
+            border-radius: 10px;
+        }
+
+        .box1 {
+            margin-left: 20px;
+            margin-top:20px;
+            max-width: 200px;
+            max-height: 500px;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+
+        .box1:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            max-width: 400px;
+            max-height: 500px;
+        }
+
+
+
+
+        .box2 {
+            margin-left: 280px;
+            margin-top: -407px;
+            max-width: 500px;
+            max-height: 500px;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+
+        .box2:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            max-width: 400px;
+            max-height: 500px;
+        }
+
+        .block2 {
+            width: 250px;
+            height: 350px;
+            border: 2px solid;
+            border-top-color: orangered;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .heder2 {
+            width: 250px;
+            height: 50px;
+            border: 2px solid;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-color: orangered;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .button2 {
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: orangered;
+            border-radius: 10px;
+        }
+        
+        .box2 {
+            margin-left: 280px;
+            margin-top: -407px;
+            max-width: 500px;
+            max-height: 500px;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+
+        .box2:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            max-width: 200px;
+            max-height: 500px;
+
+        }
+
+
+
+
+        .block3 {
+            width: 250px;
+            height: 350px;
+            border: 2px solid;
+            border-top-color:royalblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .heder3 {
+            width: 250px;
+            height: 50px;
+            border: 2px solid;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-color: royalblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .button3 {
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: royalblue;
+            border-radius: 10px;
+        }
+
+        .box3 {
+            margin-left: 545px;
+            margin-top: -407px;
+            max-width: 500px;
+            max-height: 500px;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+
+        .box3:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            max-width: 200px;
+            max-height: 500px;  
+        }
+
+
+
+        .block4 {
+            width: 250px;
+            height: 350px;
+            border: 2px solid;
+            border-top-color:lime;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .heder4 {
+            width: 250px;
+            height: 50px;
+            border: 2px solid;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-color: lime;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .button4 {
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: lime;
+            border-radius: 10px;
+        }
+
+        .box4 {
+            margin-left: 810px;
+            margin-top: -407px;
+            max-width: 500px;
+            max-height: 500px;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+
+        .box4:hover {
+            transform: scale(1.1);
+            transition-duration: 1s;
+            max-width: 200px;
+            max-height: 500px;
+
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="heder">
+            <p><b>ENTERPRIZE</b></p>
+        </div>
+        <div class="block">
+            <p class="dolor"><b>$69</b></p>
+            <p class="month">per month</p>
+            <p><b>10GB disk space</b></p>
+            <p><b>100GB monthly bandwidth</b></p>
+            <p><b>20 email accouts</b></p>
+            <p><b>Unlimited subdomens</b></p>
+            <button>BUY</button>
+        </div>
+    </div>
+
+
+
+    <div class="box2">
+        <div class="heder2">
+            <p><b>PROFESSIONAL</b></p>
+        </div>
+        <div class="block2">
+            <p class="dolor"><b>$29</b></p>
+            <p class="month">per month</p>
+            <p><b>5GB disk space</b></p>
+            <p><b>60GB monthly bandwidth</b></p>
+            <p><b>10 email accouts</b></p>
+            <p><b>Unlimited subdomens</b></p>
+            <button class="button2">BUY</button>
+        </div>
+    </div>
+
+
+
+    <div class="box3">
+            <div class="heder3">
+                <p><b>STANDARD</b></p>
+            </div>
+            <div class="block3">
+                <p class="dolor"><b>$19</b></p>
+                <p class="month">per month</p>
+                <p><b>3GB disk space</b></p>
+                <p><b>30GB monthly bandwidth</b></p>
+                <p><b>5 email accouts</b></p>
+                <p><b>Unlimited subdomens</b></p>
+                <button class="button3">BUY</button>
+            </div>
+        </div>
+
+        
+
+        <div class="box4">
+                <div class="heder4">
+                    <p><b>BASIC</b></p>
+                </div>
+                <div class="block4">
+                    <p class="dolor"><b>$9</b></p>
+                    <p class="month">per month</p>
+                    <p><b>1GB disk space</b></p>
+                    <p><b>10GB monthly bandwidth</b></p>
+                    <p><b>2 email accouts</b></p>
+                    <p><b>Unlimited subdomens</b></p>
+                    <button class="button4">BUY</button>
+                </div>
+            </div>
+</body>
+
+</html>
