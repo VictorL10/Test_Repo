@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(245, 245, 245);
+            line-height: 2;
+            margin-left: 40px;
+        }
+
+        h2 {
+            font-family: Arial;
+        }
+
+        ul {
+            list-style-type: none;
+            font-family: Arial;
+            list-style-position: inside;
+            padding-left: 0px;
+            padding-right: 50px;
+        }
+
+        .qw::before {
+            content: url(icons/unchecked_16.png)
+        }
+
+        .as::before {
+            content: url(icons/checked_16.png);
+        }
+
+        li span {
+            padding-left: 20px;
+        }
+
+        li:nth-child(2) {
+            background-color: rgb(226, 226, 226);
+            padding: 5px;
+            padding-left: 40px;
+        }
+
+        li:nth-child(2n+4) {
+            background-color: rgb(173, 216, 230);
+            padding: 5px;
+            padding-left: 40px;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: rgb(165, 204, 218);
+            padding: 5px;
+            padding-left: 40px;
+        }
+
+        li:nth-child(5) {
+            background-color: rgb(226, 226, 226);
+            padding: 5px;
+            padding-left: 40px;
+        }
+
+        li:nth-child(11) {
+            background-color: rgb(226, 226, 226);
+            padding: 5px;
+            padding-left: 40px;
+        }
+
+        li abbr {
+            color: brown;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>My To Do List</h2>
+    <ul>
+        <li class="qw"><span>Hit the gym</span><abbr>&#x2716</abbr></li>
+        <li class="as"><span><s>Pay bills</s></span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Meet John</span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Buy eggs</span><abbr>&#x2716</abbr></li>
+        <li class="as"><span><s>Read a book</s></span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Organize office</span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Eat dinner</span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>But apples</span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Meet George</span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Feed the cat</span><abbr>&#x2716</abbr></li>
+        <li class="as"><span><s>Write a Letter</s></span><abbr>&#x2716</abbr></li>
+        <li class="qw"><span>Run 1 km</span><abbr>&#x2716</abbr></li>
+    </ul>
+</body>
+
+</html>
