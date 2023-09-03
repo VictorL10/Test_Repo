@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+body{
+display: flex;
+justify-content: center;
+height: 100%;
+align-items: center;
+background-color: coral;
+margin: 0;
+padding: 0;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+form{
+    text-align: center;
+}
+input{
+    border: none;
+}
+
+.login-form{
+padding: 1rem;
+background-color: grey;
+padding-top: 0.5rem;
+font-size: 0.75rem;
+}
+
+.social, .social input{
+    color: white;
+}
+
+.social input:first-child{
+background-color: blue;
+}
+
+.social input:last-child{
+background-color: lightpink;
+}
+
+.social input{
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+#fb, #tw{
+    width: 45%;
+    padding: 0.25rem;
+}
+
+#fb input{
+    background-color: slateblue;
+    font-size: 0.75rem;
+}
+
+#tw input{
+    background-color: blue;
+    font-size: 0.75rem;
+
+}
+
+.social p{
+    margin: 0.5rem;
+}
+
+#fb{
+    padding-left: 0;
+}
+
+#tw{
+    padding-right: 0;
+}
+
+#psw{
+    
+    margin: 0.5rem 0;
+}
+
+#subm{
+    background-color: greenyellow;
+    color: white;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.login-form a{
+color: rgb(122, 117, 115);
+text-decoration: none;
+
+}
+</style>
+<body>
+    <form method="GET">
+
+        <div class="login-form">
+        <h3>Member Login</h3>
+        <input type="text" name="username" placeholder="Udername">
+    </div>
+
+    <div>
+<input  id="pws" type="password" name="password" placeholder="password" >
+
+
+    </div>
+
+    <div>
+            <input id="sabm" type="sabmit" value="Login" >
+            
+            <a href="#">Forget password?</a>
+
+                </div>
+<div class="social">
+                <p>... or log in with:</p>
+                <div class="btn-container">
+<div id="fb">
+<input type="button" value="Facebook">
+
+</div>
+
+<div>
+        <input type="button" value="Twiter">
+        
+        </div>
+
+                </div>
+            </div>
+    
+    
+    </form>
+</body>
+</html>
