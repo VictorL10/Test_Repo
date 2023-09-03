@@ -1,0 +1,204 @@
+body {
+    background-image: url("image/dark.jpg");
+}
+
+/*navbar*/
+.navbar {
+    background: rgb(0, 0, 0);
+}
+
+.nav-link,
+.navbar-brand {
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em;
+}
+
+.nav-link:hover {
+    background: rgb(73, 70, 70);
+    transform: rotateZ(20deg);
+    border-radius: 70%;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: rgb(73, 70, 70);
+}
+
+h5 {
+    font-family: MV BOLI;
+}
+
+li,
+.btn {
+    font-family: cursive;
+}
+
+
+/*Portfolio*/
+
+.portfolio h1 {
+    color: rgb(250, 250, 245);
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-family: cursive
+}
+
+.portfolio img {
+    box-shadow: 0 0 40px rgba(255, 255, 255, .6), inset 0 0 40px rgba(255, 255, 255, 1);
+    height: 15rem;
+    width: 70%;
+    margin: 4em;
+    margin-top: 0;
+    opacity: 0.7;
+
+}
+
+.portfolio img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+
+/*Team*/
+.team {
+    margin: 4em 0;
+    position: relative;
+}
+
+.team h1 {
+    color: rgb(250, 250, 245);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: cursive;
+}
+
+.team .item {
+    position: relative;
+}
+
+.team .des {
+    background: rgba(25, 99, 102, 0.534);
+    color: #fff;
+    text-align: center;
+    border-bottom-right-radius: 99%;
+    transition: .3s ease-in-out;
+}
+
+.team .item:hover .des {
+    height: 89%;
+    background: #4149648e;
+    position: absolute;
+    width: 90%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 11;
+}
+
+.des {
+    font-family: cursive;
+}
+
+.text-muted {
+    font-family: cursive;
+}
+
+/*Texnologi*/
+.carousel {
+    margin: 4em 0;
+    position: relative;
+}
+
+.carousel h1 {
+    color: rgb(250, 250, 245);
+    margin-top: 4em;
+    font-family: cursive;
+}
+
+.carousel-inner img {
+    height: 300px;
+}
+
+/*Contact*/
+h1 {
+    color: rgb(250, 250, 245);
+    font-family: cursive;
+}
+
+.contact-form .right {
+    max-width: 600px;
+
+}
+
+.contact-form .right .btn-secondary {
+    background: rgb(40, 99, 146);
+    color: #fff;
+    border: 0;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+
+.footerHeader {
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(87, 90, 92);
+    text-align: center;
+
+}
+
+footer h3 {
+    font-weight: lighter;
+    font-family: cursive;
+
+}
+
+footer ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+footer p {
+    text-align: justify;
+    font-size: 14px;
+    
+}
+
+footer iframe {
+    width: 100%;
+    position: relative;
+    height: 170px;
+}
+
+.sm {
+    list-style: none;
+    overflow: auto;
+}
+
+.sm li {
+    display: inline;
+    padding: 5px;
+
+}
+
+.sm li a img {
+    width: 32px;
+    border-radius: 15px;
+}
