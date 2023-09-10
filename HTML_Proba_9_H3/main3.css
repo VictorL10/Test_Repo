@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(233, 225, 233);
+    margin: 0;
+    min-width: 600px;
+    max-width: 1200px;
+
+}
+
+ul {
+    list-style: none;
+    padding-top: 9px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.logo {
+    background-color: rgb(54, 47, 47);
+    margin: auto;
+    color: white;
+    overflow: auto;
+}
+
+.site {
+    color: white;
+    float: left;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 60%;
+    height: 40%;
+    margin-bottom: 20px;
+    
+
+}
+
+.im1 {
+    width: 100%;
+}
+
+.what {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+#date {
+    color: rgb(173, 166, 166);
+    margin-left: 50px;
+}
+
+#text {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.image2 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 50%;
+    background-color: white;
+    margin-left: 40px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+.icon {
+    width: 30%;
+    height: 40%;
+
+
+}
+
+.now{
+    line-height: 0.2;
+    margin-left: -80px;
+    text-align: 10px;
+    
+}
+
+.footer {
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 65%;
+    height: 50%;
+
+}
+
+.proba {
+    width: 40%;
+    height: 70%;
+
+}
+
+.fot{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
