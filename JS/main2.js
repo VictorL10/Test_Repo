@@ -31,10 +31,10 @@ console.log("check2---", check2);
 console.log("check3---", check3);
 
 
-if (false) {
-    console.log("Check TRUE")
+// if (false) {
+//     console.log("Check TRUE")
 
-} 
+// } 
 
  
 
