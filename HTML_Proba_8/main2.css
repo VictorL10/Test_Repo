@@ -1,0 +1,105 @@
+ul li{
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.actions{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: royalblue;
+    color: white;
+}
+
+.col{
+    background-color: skyblue;
+    
+}
+
+.sed{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: skyblue;
+}
+
+.plans{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: royalblue;
+    color: white;
+}
+
+.morbi{
+    background-color: skyblue;
+}
+
+.donec{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: skyblue;
+}
+
+.box2{
+    margin-left: -40px;
+}
+
+.box3{
+    margin-left: -40px;
+}
+
+@media screen and (min-width:600px){
+
+.box2{
+    float: left;
+    padding: 10px;
+    width: 50%;
+  
+}
+
+.box3{
+    float: right;
+    padding: 10px;
+    width: 50%;
+    
+    
+}
+
+
+
+}
+
+@media screen and (min-width:800px){
+
+    .box1{
+        width: 60%;
+        float: left;
+        padding: 10px;
+        
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+        
+    }
+    
+    
+    .box2{
+        float: left;
+        padding: 10px;
+        width: 30%;
+       
+    }
+    
+    .box3{
+        float: left;
+        padding: 10px;
+        width: 30%;
+       
+        
+    }
+}
+    
