@@ -1,0 +1,97 @@
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.87);
+    margin: 2rem;
+}
+
+#bar {
+    border: 1px solid rgba(0, 0, 255, 0.87);
+    height: 24px;
+}
+
+#bar div {
+    height: 24px;
+    font-size: 0.75rem;
+    line-height: 200%;
+}
+
+#bar div:first-child {
+    float: left;
+    padding-left: 1rem;
+    background-color:lightblue;
+    width: 40%;
+}
+
+#bar div:last-child {
+    float: right;
+    padding-right: 1rem;
+}
+
+#btn button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.4rem;
+}
+
+#image img {
+    width: 100%;
+}
+
+#load,
+#image,
+#btn {
+    margin: 1rem;
+}
+
+p{
+    font-size: 10px;
+}
+
+
+@media screen and (min-width:600px) {
+    
+    .box{
+        height: 152px;
+    }
+    
+    #load, #image, #btn{
+        float: left;
+        height: 120px;
+    }
+
+        #image{
+            width: 30%;
+            margin-right: 0;
+        }
+
+        #image img{
+            height: 100%;
+        }
+
+        #load{
+            width: 45%;
+            
+        }
+
+        #btn{
+            width: 13%;
+            margin-left: 0;
+            float:right;
+        }
+
+        #bar{
+            min-width: 260px;
+        }
+
+        #bar div {
+            
+            font-size: 0.65rem;
+            
+        }
+
+        #btn button {
+            
+            padding: 0.25rem;
+        }
+}
