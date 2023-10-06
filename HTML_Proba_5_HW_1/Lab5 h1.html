@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(245, 245, 245);
+        }
+
+        thead {
+            color: white;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-family: Arial;
+        }
+
+        thead th:first-child {
+            border-top-left-radius: 10px;
+            
+        }
+
+        thead th:last-child {
+            border-top-right-radius: 10px;
+        }
+        
+        tfoot td:last-child {
+            border-bottom-right-radius: 10px;
+
+        }
+        tfoot td:first-child {
+            border-bottom-left-radius: 10px;
+
+        }
+         
+
+        #qw {
+            background-color: rgb(120, 135, 171);
+        }
+
+        #as {
+            background-color: rgb(79, 98, 142);
+
+        }
+
+        #fg {
+            background-color: rgb(46, 65, 114);
+
+        }
+
+        #gh {
+            background-color: rgb(22, 41, 85);
+
+        }
+
+        #hj {
+            background-color: rgb(6, 21, 57);
+
+        }
+
+        table td,
+        th {
+            padding: 10px;
+        }
+
+        tbody {
+            background-color: rgb(236, 236, 236);
+            text-align: center;
+        }
+
+        tbody tr:nth-child(odd) td:nth-child(odd) {
+            background-color: rgb(219, 219, 219);
+            
+        }
+
+        tbody tr:nth-child( even) td:nth-child( even) {
+            background-color: rgb(243,243,243);
+        }
+
+        tbody tr:nth-child(2n+1) td:nth-child(2n) {
+            background-color: rgb(231,231,231);
+        }
+        
+        tbody tr:nth-child(-n+6) td:nth-child(1) {
+            text-align: left;
+        }
+            tfoot td:nth-child(odd)  {
+                background-color: rgb(156, 150, 150);
+            }
+
+        .qw {
+            font-size: 30px;
+            margin-block-end: -15px;
+
+        }
+        button:hover{
+            background-color: dimgrey;
+        }
+       
+        
+    </style>
+</head>
+
+<body>
+    <table bordder=none;>
+        <!--Heder-->
+        <thead>
+            <tr>
+                <th id="qw">Choose your plan</th>
+                <th id="as">
+                    <p>starler</p>
+                    <p class="qw">$10</p>
+                    <p>per month</p>
+                </th>
+                <th id="fg">
+                    <p>econom</p>
+                    <p class="qw">$30</p>
+                    <p>per month</p>
+                </th>
+                <th id="gh">
+                    <p>standard</p>
+                    <p class="qw">$59</p>
+                    <p>per month</p>
+                </th>
+                <th id="hj">
+                    <p>professional</p>
+                    <p class="qw">$99</p>
+                    <p>per month</p>
+                </th>
+            </tr>
+        </thead>
+        <!--body-->
+        <tbody>
+            <tr>
+                <td>Amount of space</td>
+                <td>20GB</td>
+                <td>40GB</td>
+                <td>100GB</td>
+                <td>Unlimeted</td>
+            </tr>
+            <tr>
+                <td>Bandwidth per month</td>
+                <td>120GB</td>
+                <td>240GB</td>
+                <td>610GB</td>
+                <td>1300GB</td>
+            </tr>
+            <tr>
+                <td>Email accouts</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimeted</td>
+
+            </tr>
+            <tr>
+                <td>MySQL databases</td>
+                <td>1</td>
+                <td>15</td>
+                <td>60</td>
+                <td>Unlimeted</td>
+
+            </tr>
+            <tr>
+                <td>25h support</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+
+            </tr>
+            <tr>
+                <td>Support tickets per month</td>
+                <td>2</td>
+                <td>6</td>
+                <td>14</td>
+                <td>20</td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td><button>START</button></td>
+                <td><button>START</button></td>
+                <td><button>START</button></td>
+                <td><button>START</button></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
