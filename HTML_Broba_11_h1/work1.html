@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(247, 124, 87);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cen {
+            text-align: center;
+
+        }
+
+        .cen2 {
+            padding-left: 67px;
+            padding-right: 67px;
+            margin-top: 10px;
+            background-color: rgb(2, 150, 81);
+            border: none;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid rgb(6, 105, 59);
+            color: white;
+        }
+
+        .log {
+            padding: 1rem;
+            background-color: #eee;
+            margin-top: 50px;
+        }
+
+        a {
+            padding-left: 30px;
+        }
+
+        .dvig {
+            margin-bottom: 10px;
+            border: none;
+            text-align: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+        }
+
+        .dv {
+            border: none;
+            text-align: center;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+        }
+
+        .dvig2 {
+            margin-top: 10px;
+            border: none;
+
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+        img {
+            height: 25px;
+        }
+
+        #ssr {
+            color: coral;
+            text-decoration: none;
+            font-size: 10px;
+            text-align: center;
+            margin-left: 15px;
+
+        }
+
+        #bat {
+            width: 100%;
+            height: 100%;
+            padding: 0.8rem;
+            background-color: rgb(13, 86, 128);
+            border: none;
+        }
+
+        #bat2 {
+            width: 100%;
+            height: 100%;
+            padding: 0.8rem;
+            background-color: rgb(53, 180, 180);
+            border: none;
+
+
+        }
+
+        #fb {
+            display: flex;
+            align-items: center;
+            width: 45%;
+            height: 100%;
+            background-color: rgb(60, 91, 155);
+            padding: 8px;
+            padding-left: 0;
+            font-size: 14px;
+            color: white;
+        }
+
+        #rw {
+            display: flex;
+            align-items: center;
+            width: 45%;
+            height: 100%;
+            background-color: rgb(25,191,229);
+            padding: 8px;
+            margin-left: 10px;
+            font-size: 14px;
+            color: white;
+          
+        }
+    </style>
+</head>
+
+<body>
+    <form method="GET">
+
+        <div class="log">
+            <h3>Member Login</h3>
+            <div>
+                <input class="dvig" type="text" name="username" placeholder="Username">
+            </div>
+            <div>
+                <input class="dv" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="cen">
+                <input class="cen2" class="dvig2" type="submit" value="Login">
+            </div>
+            <a id="ssr" href="#">Forgot Password?</a>
+        </div>
+        <p class="cen">... or log in with:</p>
+        <div class="btn">
+            <div id="fb">
+                <img src="w512h5121347464873Facebookalt1.png" alt=""><span>Facebook</span>
+
+            </div>
+
+            <div id="rw">
+                <img src="w512h5121347464932Twitteralt2.png" alt=""><span>Twitter</span>
+
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
