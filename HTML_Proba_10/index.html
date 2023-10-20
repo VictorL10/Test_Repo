@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        header, footer, main, aside, nav {
+            padding: 2rem;
+            border: 1px solid #333;
+        }
+
+        header {
+            background-color: lightblue;
+            grid-area: head;
+        }
+
+        footer {
+            background-color: darkblue;
+            color: white;
+            grid-area: foot;
+        }
+
+        nav {
+            background-color: #bbb;
+            grid-area: nav;
+        }
+
+        main {
+            background-color: #ccc;
+            grid-area: main;
+        }
+
+        aside {
+            background-color: #aaa;
+            grid-area: adds;
+        }
+
+
+
+        .container {
+            display: grid;
+
+            grid-template-areas: 
+            "head head head"
+            "nav main adds"
+            "foot foot foot "
+            ;
+
+            grid-template-rows: 1fr 6fr 1fr;
+            grid-template-columns: 3fr 5fr 4fr;
+
+            gap: 1rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            .container {
+                grid-template-areas: 
+                "head head nav nav"
+                ". main main adds"
+                ". main main  ."
+                "foot foot foot foot "
+                ;
+
+                grid-template-rows: 1fr 3fr 3fr 1fr;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            Header
+        </header>
+
+        <nav>
+            Navigation
+        </nav>
+
+        <main>
+            Articles
+        </main>
+
+        <aside>
+            Adds
+        </aside>
+
+        <footer>
+            Footer
+        </footer>
+
+    </div>
+</body>
+</html>
